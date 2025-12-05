@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2   # runs outside container
 
-      - uses: jenkinsci/jfr-container-action@master
+      - uses: jenkinsci/jfr-container-action@v1
         with:
           command: run
           jenkinsfile: Jenkinsfile
